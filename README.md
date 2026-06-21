@@ -8,13 +8,15 @@ This repository was created as part of the **100Hires portfolio project applicat
 
 The following tools were installed or configured during this project:
 
-| Tool | Status |
-|------|--------|
-| [Cursor IDE](https://cursor.com/) | Installed |
-| [Git](https://git-scm.com/) | Installed and verified |
-| [GitHub](https://github.com/) | Account created; repository connected |
-| Claude Code | Installation attempted; extension unavailable in the current Cursor Marketplace version at the time of setup |
-| OpenAI Codex | Installation attempted; extension unavailable in the current Cursor Marketplace version at the time of setup |
+
+| Tool                              | Status                                                        |
+| --------------------------------- | ------------------------------------------------------------- |
+| [Cursor IDE](https://cursor.com/) | Installed                                                     |
+| [Git](https://git-scm.com/)       | Installed and verified                                        |
+| [GitHub](https://github.com/)     | Account created; repository connected                         |
+| Claude Code                       | Installed successfully via Cursor CLI (anthropic.claude-code) |
+| OpenAI Codex                      | Installed successfully via Cursor CLI (openai.chatgpt)        |
+
 
 ## Steps Completed
 
@@ -26,17 +28,23 @@ The following milestones were completed during this project:
 - Created public GitHub repository
 - Cloned repository into Cursor
 - Connected repository to GitHub
+- Installed Claude Code extension
+- Installed OpenAI Codex extension
+- Verified extension installation
+- Updated repository after Cursor usage limit was reached using manual Git workflows
 - Created and updated `README.md`
 
 ## Challenges Faced
 
 Several challenges were encountered during setup and configuration:
 
-- **Required extensions** — The assignment required installation of the Claude Code and OpenAI Codex extensions within Cursor
+- **Required extensions** — Claude Code and OpenAI Codex were not visible through the Cursor Marketplace search interface. Additional investigation and alternative installation methods were required
 - **Marketplace search** — Extensive searches were performed within the Cursor Marketplace, but neither extension could be located in the available listings at the time of setup
 - **Availability verification** — Additional research was conducted to determine whether the extensions had been renamed, deprecated, region-restricted, or otherwise unavailable in the current Cursor version
 - **Cursor interface** — The Cursor IDE interface differed from initial expectations, requiring time to navigate and adapt
 - **Repository cloning** — Learning the end-to-end process of cloning a remote repository and working with it locally in Cursor
+- **Cursor usage limit reached** — During the setup process, the available Cursor AI usage quota was exhausted. This prevented further use of AI-assisted editing and repository updates within Cursor
+- **Alternative workflow required** — Repository documentation and updates had to be completed through manual editing, Git commands, and GitHub version control workflows
 
 ## Resolution
 
@@ -48,6 +56,11 @@ Issues were addressed through **research**, **experimentation**, and **troublesh
 - Adapted to Cursor’s interface through hands-on exploration of settings, menus, and workspace layout
 - Used Git and GitHub documentation to complete cloning, remote connection, and local repository management
 - **Proceeded with available Cursor functionality** while documenting the extension availability issue transparently in this README
+- Installed Claude Code and OpenAI Codex successfully using Cursor CLI after Marketplace search did not return the required extensions
+- Verified extension installation using extension IDs and version numbers
+- Continued repository documentation and project updates after reaching the Cursor usage limit by switching to manual editing and Git-based workflows
+- Demonstrated adaptability by using alternative methods when AI-assisted tooling became unavailable  
+
 
 This approach ensured the core project requirements were met and limitations were recorded clearly rather than omitted.
 
@@ -60,3 +73,6 @@ This project reflects the following competencies:
 - **GitHub Basics** — Creating an account, initializing a public repository, and connecting local and remote workflows
 - **Repository Management** — Cloning, organizing, and documenting a project in a version-controlled environment
 - **Self Learning** — Acquiring new tools and processes independently through documentation and hands-on practice
+- **Adaptability** — Successfully switched to alternative workflows when Cursor AI usage limits prevented further automated assistance
+- **Troubleshooting**  — Investigated extension availability issues and identified a CLI-based installation approach
+
